@@ -11,3 +11,6 @@ steps:
   inputs:
     githubEndpoint: 'github akbarmdmd'
     repositoryName: akbarmdmd/vue
+    action: Edit
+    tag: 40-tag3
+    isDraft: true
