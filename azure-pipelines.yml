@@ -11,7 +11,3 @@ steps:
   inputs:
     githubConnection: 'github akbarmdmd'
     repositoryName: akbarmdmd/vue
-    action: Edit
-    tag: 40-tag6
-    releaseTitle: Akbar
-    isDraft: true
