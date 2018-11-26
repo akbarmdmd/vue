@@ -9,8 +9,8 @@ pool:
 steps:
 - task: GithubRelease@10
   inputs:
-    githubEndpoint: 'github akbarmdmd'
+    githubConnection: 'github akbarmdmd'
     repositoryName: akbarmdmd/vue
     action: Edit
-    tag: 40-tag3
+    tag: 40-tag4
     isDraft: true
