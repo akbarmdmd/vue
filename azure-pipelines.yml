@@ -7,7 +7,7 @@ pool:
   vmImage: 'Ubuntu 16.04'
 
 steps:
-- task: GithubRelease@11
+- task: GithubRelease@10
   inputs:
     githubConnection: 'github akbarmdmd'
     repositoryName: akbarmdmd/vue
