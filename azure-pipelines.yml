@@ -12,7 +12,7 @@ steps:
     githubConnection: 'github akbarmdmd'
     repositoryName: akbarmdmd/vue
     assets: $(build.artifactstagingdirectory)/*.zip
-    action: 'dreate'
+    action: 'create'
     target: '$(build.sourceVersion)'
     tagSource: 'auto'
     #tag: # Required when action == edit || action == discard || tagSource == manual
