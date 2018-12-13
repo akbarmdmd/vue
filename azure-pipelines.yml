@@ -11,3 +11,11 @@ steps:
   inputs:
     githubConnection: 'github akbarmdmd'
     repositoryName: akbarmdmd/vue
+    assets: $(build.artifactstagingdirectory)/*.zip
+    action: 'create'
+    target: '$(build.sourceVersion)'
+    tagSource: 'auto'
+    #tag: # Required when action == edit || action == discard || tagSource == manual
+    title: 'Tag Title'
+    assetUploadMode: 'delete'
+    isDraft: true
