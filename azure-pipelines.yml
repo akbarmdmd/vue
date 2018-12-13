@@ -7,12 +7,12 @@ pool:
   vmImage: 'Ubuntu 16.04'
 
 steps:
-- task: GithubRelease@10
+- task: GithubRelease@11
   inputs:
     githubConnection: 'github akbarmdmd'
     repositoryName: akbarmdmd/vue
     assets: $(build.artifactstagingdirectory)/*.zip
-    action: 'create'
+    action: 'dreate'
     target: '$(build.sourceVersion)'
     tagSource: 'auto'
     #tag: # Required when action == edit || action == discard || tagSource == manual
